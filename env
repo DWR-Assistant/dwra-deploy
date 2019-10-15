@@ -1,5 +1,6 @@
 export CURRENT_PATH=$(pwd)
 export DATA_PATH=${CURRENT_PATH}/data
+export CONF_PATH=${CURRENT_PATH}/conf
 
 export DB_PORT=3308
 export DB_INIT_PATH=${CURRENT_PATH}/sql
@@ -7,3 +8,4 @@ export DB_DATA_PATH=${DATA_PATH}/db
 
 export REDIS_PORT=6379
 export REDIS_DATA_PATH=${DATA_PATH}/redis
+export REDIS_CONF_PATH=${CONF_PATH}/redis
